@@ -1,0 +1,12 @@
+{
+  "name": "Garden Party — Brodys Room",
+  "created": "2026-07-10T20:35:52.345Z",
+  "targetAspect": 0.6666666666666666,
+  "videoAspect": 0.6666666666666666,
+  "videoFile": "video.mov",
+  "artworkFile": "artwork.jpg",
+  "scale": 1,
+  "sound": true,
+  "pauseOnLost": true,
+  "featurePoints": 36
+}
