@@ -1,0 +1,12 @@
+{
+  "name": "Demo — point your phone at this artwork on the Mac screen",
+  "created": "2026-07-09T02:31:13.405Z",
+  "targetAspect": 1.25,
+  "videoAspect": 0.5625,
+  "videoFile": "video.mp4",
+  "artworkFile": "artwork.jpg",
+  "scale": 1,
+  "sound": false,
+  "pauseOnLost": true,
+  "featurePoints": 59
+}
