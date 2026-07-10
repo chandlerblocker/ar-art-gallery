@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AR Art Gallery</title>
+<style>
+  :root { --bg:#12100e; --card:#1d1a17; --ink:#f3ede4; --muted:#a89d8d; --accent:#e0a458; --line:#35302a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.5 -apple-system,"Segoe UI",sans-serif; background:var(--bg); color:var(--ink); }
+  .wrap { max-width:720px; margin:0 auto; padding:32px 20px 80px; }
+  h1 { font-size:26px; } h1 span { color:var(--accent); }
+  p.sub { color:var(--muted); margin:0 0 28px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
+  .exp { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; }
+  .thumb { display:block; aspect-ratio:4/3; background:#0c0a09 center/contain no-repeat; }
+  .body { padding:12px 14px 14px; } .body b { display:block; margin-bottom:2px; }
+  .body small { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>AR <span>Art</span> Gallery</h1>
+  <p class="sub">Pick a piece, allow the camera, and point your phone at the artwork to see it come to life.</p>
+  <div class="grid">
+
+  </div>
+</div>
+</body>
+</html>
